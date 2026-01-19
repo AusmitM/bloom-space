@@ -1,0 +1,43 @@
+name: BloomSpace
+description: A mental health platform for TAMU students
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase
+  supabase_flutter: ^2.5.0
+
+  # UI & Design
+  flutter_svg: ^2.0.10+1
+
+  # URL Launcher
+  url_launcher: ^6.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and add asset directories as needed
+  assets:
+    - assets/logos/
+    # - assets/images/
+
+  # Optional: Add custom fonts
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: fonts/Inter-Regular.ttf
+  #       - asset: fonts/Inter-Bold.ttf
+  #         weight: 700
