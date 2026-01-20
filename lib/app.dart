@@ -9,7 +9,7 @@ class myApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Bloom Space',
+      title: 'Bloom_Space',
       debugShowCheckedModeBanner: false,
       initialRoute: AppRoutes.home,
       routes: {AppRoutes.home: (context) => const HomePage()},
