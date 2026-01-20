@@ -134,8 +134,8 @@ class _LoginPageState extends State<LoginPage> {
                       if (value == null || value.isEmpty) {
                         return 'Please enter your email';
                       }
-                      if (!value.contains('@')) {
-                        return 'Please enter a valid email';
+                      if (!value.contains('@tamu.edu')) {
+                        return 'Please enter a valid TAMU email';
                       }
                       return null;
                     },
